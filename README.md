@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save nhn-test
+npm install --save udp-player
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save nhn-test
 ```jsx
 import React, { Component } from 'react'
 
-import UdpPlayer from 'nhn-test'
+import UdpPlayer from 'udp-player'
 
 class Example extends Component {
   render() {
