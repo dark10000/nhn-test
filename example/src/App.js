@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import ProgressBar from "nhn-test";
-import "nhn-test/dist/index.css";
+import UdpPlayer from "nhn-test";
 
 const App = () => {
   const [completed, setCompleted] = useState(0);
@@ -12,7 +11,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <ProgressBar bgcolor={"#6a1b9a"} completed={completed} />
+      <UdpPlayer suuid="demo1" />
     </div>
   );
 };
