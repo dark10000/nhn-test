@@ -15,12 +15,11 @@ npm install --save nhn-test
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'nhn-test'
-import 'nhn-test/dist/index.css'
+import UdpPlayer from 'nhn-test'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <UdpPlayer suuid="demo1" />
   }
 }
 ```
